@@ -1,16 +1,8 @@
-## Features
+## 健康管理页面功能
 
-- Login / Logout
-- Permission Authentication
-    - A list of filters
-    - Permission to switch
-- i18n
-- Components
-    - Rich Text Editor
-    - Markdown Editor
-    - City Cascader
-    - Photos preview and edit
-    - Draggable list
-    - File upload
-    - Digital gradient
-    - split-pane
+- 创建
+    - 状态  ‘’
+    - 功能
+    - 表单id
+    - 说明
+- 查看
