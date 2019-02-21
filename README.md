@@ -16,7 +16,7 @@
         <td>新建表单</td>
       </tr>
       <tr>
-        <td>新建</td>
+        <td>|——</td>
         <td>无</td>
         <td>发送</td>
         <td>null</td>
@@ -30,17 +30,31 @@
         <td>保存表单（ID123...）</td>
       </tr>
       <tr>
-        <td>查看</td>
+        <td>|——</td>
         <td>save</td>
         <td>发送</td>
         <td>ID123...</td>
         <td>保存并发送表单（ID123...）</td>
       </tr>
       <tr>
-        <td>查看</td>
+        <td>|——</td>
         <td>send</td>
         <td></td>
         <td>ID123...</td>
         <td>查看（ID123...）</td>
+      </tr>
+      <tr>
+        <td>|——</td>
+        <td>message</td>
+        <td>回复</td>
+        <td>ID123...</td>
+        <td>回复表单（ID123...）</td>
+      </tr>
+      <tr>
+        <td>|——</td>
+        <td>reply</td>
+        <td></td>
+        <td>ID123...</td>
+        <td>查看表单（ID123...）</td>
       </tr>
     </table>
