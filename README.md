@@ -14,3 +14,12 @@
 	期望：图片预览功能
 	
 	语音识别 ——>  语音导航 ——> 具体对应的功能（会不会代码就不重要了）
+
+##  js数字转二进制
+
+function twoJZ (num, curtwoJZ) {
+	var _curtwoJZ = curtwoJZ || '',
+	 	shang = Math.floor(num / 2),
+		yu = num % 2;
+	return shang !== 0  ? twoJZ(shang, yu + _curtwoJZ) : yu + _curtwoJZ 
+}
