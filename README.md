@@ -17,9 +17,11 @@
 
 ##  js数字转二进制
 
-function twoJZ (num, curtwoJZ) {
-	var _curtwoJZ = curtwoJZ || '',
-	 	shang = Math.floor(num / 2),
-		yu = num % 2;
-	return shang !== 0  ? twoJZ(shang, yu + _curtwoJZ) : yu + _curtwoJZ 
-}
+```bash
+	function twoJZ (num, curtwoJZ) {
+		var _curtwoJZ = curtwoJZ || '',
+			shang = Math.floor(num / 2),
+			yu = num % 2;
+		return shang !== 0  ? twoJZ(shang, yu + _curtwoJZ) : yu + _curtwoJZ 
+	}
+```
