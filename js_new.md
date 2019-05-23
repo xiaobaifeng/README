@@ -1,4 +1,9 @@
-## js new关键字：
+# js new关键字：
+
+## mdn 描述
+  [new](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/bind#Description)
+
+## code
 ```bash
   function Person (name, age) {
    this.name = name
